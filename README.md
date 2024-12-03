@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# React GraphQL Repository Viewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React project where I experimented with GraphQL and GitHub’s GraphQL API. The project fetches a list of repositories, paginates through them, and allows searching with dynamic query parameters. It’s part of my learning journey in front-end development with React and modern web technologies.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+	•	Fetch repositories using GitHub’s GraphQL API.
+	•	Pagination support with Next and Previous navigation.
+	•	Dynamic search functionality.
+	•	User-friendly interface built with Bootstrap and Bootstrap Icons.
 
-### `yarn start`
+ 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Front-end:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![image](https://github.com/user-attachments/assets/e7503ea9-29ae-48fb-88a6-5124975614a3)
+![image](https://github.com/user-attachments/assets/ba607e40-45aa-4308-8e84-670a85efeaeb)
+![image](https://github.com/user-attachments/assets/a0d110c3-3dfe-4459-bf13-3d4ce010e6a8)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📋 Requirements
 
-### `yarn build`
+To run this project, you’ll need:
+	•	Node.js (v14+ recommended)
+	•	npm or yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🖥️ Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+	1.npm install 2.NPM START 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🧰 Project Structure
 
-### `yarn eject`
+	•	App.js: Main component managing state and fetching data from the GraphQL API.
+	•	SearchBox.js: Component for handling search queries and page size input.
+	•	NavButtons.js: Handles pagination (Next/Previous).
+	•	RepoInfo.js: Displays individual repository details.
+	•	db.js: Contains configuration for GitHub GraphQL API (base URL and headers).
+	•	Query.js: Generates dynamic GraphQL queries based on user input.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+🧪 Learning Highlights
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+	•	Hands-on experience with GraphQL.
+	•	Understanding and implementing pagination using cursors.
+	•	State management with React Hooks (useState, useEffect, useCallback).
+	•	Using Bootstrap and Sass for styling and responsive design.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  ⚡ Future Improvements
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+	•	Add error handling and user-friendly notifications.
+	•	Implement more advanced filtering options.
+	•	Improve design with additional UI libraries like Mantine or Material-UI.
 
-## Learn More
+📬 Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you have any questions or feedback, feel free to reach out:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
